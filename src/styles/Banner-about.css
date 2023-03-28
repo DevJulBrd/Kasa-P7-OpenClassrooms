@@ -1,0 +1,10 @@
+.banner-about-container {
+    width: 100%;
+}
+
+.banner-about-cover {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    filter: brightness(70%);
+}

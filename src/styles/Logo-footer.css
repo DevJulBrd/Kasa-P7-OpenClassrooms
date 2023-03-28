@@ -1,0 +1,11 @@
+.footer-logo-container {
+    padding-top: 15px;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-logo-container{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}

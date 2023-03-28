@@ -1,0 +1,40 @@
+.banner-container {
+    width: 100%;
+}
+
+.banner {
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.banner-title {
+    position: relative;
+    margin: 0;
+    color: white;
+    margin-left: 5%;
+    top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .banner-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner{
+        width: 96%;
+        height: 200px;
+        left: 15px;
+    }
+
+    .banner-title{
+        font-size: 48px;
+        top: 75px;
+    }
+
+    .banner-line-title{
+        display: none;
+    }
+}
