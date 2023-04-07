@@ -1,0 +1,133 @@
+.housing-container {
+    width: 100%;
+}
+
+.gallery-container {
+    width: 100%;
+}
+
+.gallery-cover {
+    width: 80%;
+}
+
+.data-container {
+    width: 100%;
+}
+
+.title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.location {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color:  #FF6060;
+}
+
+.tag-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tag {
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.rating-host-container{
+    margin-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.host-container{
+    width: 40% ;
+    display: flex;
+    align-items: center;
+}
+
+.host-name{
+    font-size: 12px;
+    font-weight: 500;
+    color: #FF6060;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.host-picture {
+    width: 40%;
+    border-radius: 50%;
+} 
+
+.red-star{
+    margin-right: 5px;
+}
+
+.description-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.annimation {
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-title {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+} 
+
+.description-vector {
+    width: 6%;
+    margin-right: 10px;
+}
+
+.description-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FF6060;
+    background-color: #F6F6F6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.equipment-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FF6060;
+    background-color: #F6F6F6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+

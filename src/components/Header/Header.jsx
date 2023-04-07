@@ -12,7 +12,6 @@ function Header() {
                 <Link to='/apropos' className='link'>A propos</Link>
             </nav> 
         </header>
-
     )
 }
 

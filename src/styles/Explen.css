@@ -13,7 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
+
 
 .explen-title {
     width: 30%;
@@ -27,6 +29,7 @@
     width: 15px;
     height: 9px;
     margin-right: 10px;
+    transform: rotate(180deg);
 }
 
 .explen-text {
@@ -36,6 +39,7 @@
     border-radius: 0 0 10px 10px;
     margin-top: 0;
     font-size: 12px;
+    display: none;
 }
 
 @media screen and (min-width: 600px) {
