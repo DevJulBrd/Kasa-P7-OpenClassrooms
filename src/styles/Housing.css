@@ -3,12 +3,11 @@
 }
 
 .gallery-container {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.gallery-cover {
-    width: 80%;
-}
+
 
 .data-container {
     width: 100%;
@@ -36,7 +35,8 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
+    display: flex;
+
 }
 
 .tag {
@@ -46,6 +46,9 @@
     font-size: 10px;
     font-weight: 500;
     margin-right: 15px;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .rating-host-container{
@@ -53,6 +56,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,10 +85,17 @@
     margin-right: 5px;
 }
 
+.grey-star {
+    width: 14px;
+    height: 13px;
+    margin-right: 5px;
+}
+
 .description-container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
 }
 
 .annimation {
