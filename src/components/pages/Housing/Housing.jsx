@@ -84,6 +84,20 @@ function Housing() {
         setCurrentIndex(newIndex)
     }
 
+    const counter = () => {
+        const number = currentIndex + 1
+
+        return number
+    }
+
+    const counterStyles = {
+        position: 'absolute',
+        bottom: '5%',
+        left: '50%',
+        color: '#fff',
+
+    }
+
     return (
 
         <main className='housing-container'>
@@ -91,8 +105,8 @@ function Housing() {
                 <div style={sliderStyles}>
                     <div style={leftArrowStyles} onClick={goPrevious}><img src={leftArrow} alt='Flèche pour changer de visuel' /></div>
                     <div style={rightArrowStyles} onClick={goNext}><img src={rightArrow} alt='Flèche pour changer de visuel' /></div>
+                    <div style={counterStyles}>{counter()}/{slides.length}</div>
                     <div style={slideStyles}></div>
-                    <div>{currentIndex}/{slides.length}</div>
                 </div> 
             </section>
             <section className='data-container'>
