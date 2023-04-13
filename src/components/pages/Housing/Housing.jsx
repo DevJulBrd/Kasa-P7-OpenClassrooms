@@ -40,6 +40,7 @@ function Housing() {
 
     const slides = house.pictures
     console.log('slides', slides)
+    console.log('lenght',slides.length)
 
     const sliderStyles = {
         height: '255px',
@@ -73,12 +74,12 @@ function Housing() {
 
     const goPrevious = () => {
         const firstSlide = currentIndex === 0
-        const newIndex = firstSlide ? slides.lenght - 1 : currentIndex - 1
+        const newIndex = firstSlide ? slides.length - 1 : currentIndex - 1
         setCurrentIndex(newIndex)
     }
 
     const goNext = () => {
-        const lastSlide = currentIndex === slides.lenght - 1 
+        const lastSlide = currentIndex === slides.length - 1 
         const newIndex = lastSlide ? 0 : currentIndex + 1
         setCurrentIndex(newIndex)
     }
@@ -91,6 +92,7 @@ function Housing() {
                     <div style={leftArrowStyles} onClick={goPrevious}><img src={leftArrow} alt='Flèche pour changer de visuel' /></div>
                     <div style={rightArrowStyles} onClick={goNext}><img src={rightArrow} alt='Flèche pour changer de visuel' /></div>
                     <div style={slideStyles}></div>
+                    <div>{currentIndex}/{slides.length}</div>
                 </div> 
             </section>
             <section className='data-container'>
