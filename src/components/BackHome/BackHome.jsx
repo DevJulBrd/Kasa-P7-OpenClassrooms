@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import '../../../styles/BackHome.css'
+import './BackHome.css'
 
 function BackHome() {
     return (

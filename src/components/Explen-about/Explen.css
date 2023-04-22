@@ -1,10 +1,11 @@
 .explen-container {
-    width: 100%;
-    margin-top: 15px;
+    width: 90%;
+    margin: 15px auto;
 }
 
 .explen-contain {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .explen-animation{
@@ -13,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
@@ -29,7 +30,6 @@
     width: 15px;
     height: 9px;
     margin-right: 10px;
-    transform: rotate(180deg);
 }
 
 .explen-text {
@@ -37,9 +37,12 @@
     background-color: #F6F6F6;
     color: #FF6060;
     border-radius: 0 0 10px 10px;
-    margin-top: 0;
+    margin: 0;
     font-size: 12px;
-    display: none;
+    font-weight: 400;
+    line-height: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 @media screen and (min-width: 600px) {
@@ -59,8 +62,9 @@
     }
 
     .explen-text{
-        font-size: 18px;
+        font-size: 24px;
         padding: 10px;
+        line-height: 34px;
     }
 
     .explen-vector{

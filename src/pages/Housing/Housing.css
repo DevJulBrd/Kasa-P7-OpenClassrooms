@@ -1,13 +1,12 @@
 .housing-container {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .gallery-container {
     width: 90%;
     margin: 0 auto;
 }
-
-
 
 .data-container {
     width: 100%;
@@ -47,8 +46,11 @@
     font-weight: 500;
     margin-right: 15px;
     width: 25%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 10px 0;
 }
 
 .rating-host-container{
@@ -66,6 +68,7 @@
     width: 40% ;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .host-name{
@@ -105,6 +108,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .description-title {
@@ -120,7 +124,7 @@
 
 .description-text {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 18px;
     color: #FF6060;
     background-color: #F6F6F6;
@@ -131,7 +135,7 @@
 
 .equipment-text {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 18px;
     color: #FF6060;
     background-color: #F6F6F6;
@@ -142,3 +146,65 @@
     flex-direction: column;
 }
 
+@media screen and (min-width: 600px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .location {
+        font-size: 18px;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .infos-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .title-location-tag-container {
+        width: 50%;
+    }
+
+    .rating-host-container {
+        width: 50%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .rating-container {
+        margin-top: 20px;
+    }
+
+    .description-block {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 45%;
+    }
+
+    .description-vector {
+        width: 24px;
+        height: 14px;
+    }
+
+    .description-text {
+        font-size: 18px;
+    }
+
+    .equipment-text {
+        font-size: 18px;
+    }
+}

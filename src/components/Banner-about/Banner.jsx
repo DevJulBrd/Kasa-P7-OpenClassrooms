@@ -1,5 +1,5 @@
-import cover from '../../../assets/img-banner-about.png'
-import '../../../styles/Banner-about.css'
+import cover from '../../assets/img-banner-about.png'
+import './Banner-about.css'
 
 function BannerAbout() {
     return (

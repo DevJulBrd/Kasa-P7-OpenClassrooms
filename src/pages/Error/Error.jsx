@@ -1,6 +1,6 @@
-import '../../../styles/Error.css'
-import BackHome from './BackHome'
-import Number from './Number'
+import './Error.css'
+import BackHome from '../../components/BackHome/BackHome'
+import Number from '../../components/Number/Number'
 
 function Error() {
     return (

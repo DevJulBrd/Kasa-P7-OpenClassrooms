@@ -1,0 +1,27 @@
+.home-container {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.home-shoppingList-container {
+    width: 100%;
+}
+
+.home-shoppingList-list {
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 600px) {
+    .home-shoppingList-container {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .home-shoppingList-list {
+        width: 30%;
+    }
+}

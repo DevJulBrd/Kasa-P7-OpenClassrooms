@@ -1,6 +1,6 @@
-import '../../../styles/About.css'
-import BannerAbout from './Banner'
-import Explen from './Explen'
+import './About.css'
+import BannerAbout from '../../components/Banner-about/Banner'
+import Explen from '../../components/Explen-about/Explen'
 
 function About () {
     return (

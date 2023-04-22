@@ -1,7 +1,7 @@
-import '../../../styles/Home.css'
+import './Home.css'
 import React from "react"
-import Banner from "./Banner"
-import HomeItem from './HomeItem'
+import Banner from "../../components/Banner-home/Banner"
+import HomeItem from '../../components/HomeItem/HomeItem'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 
@@ -17,7 +17,7 @@ function Home() {
         }
         fetchHouses()
     }, [])
-console.log(houses)
+
 
 
     return (
