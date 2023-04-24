@@ -9,7 +9,7 @@ function Header() {
             <Logo />
             <nav className='links-container'>
                 <Link to='/' className='link'>Accueil</Link>
-                <Link to='/apropos' className='link'>A propos</Link>
+                <Link to='/about' className='link'>A propos</Link>
             </nav> 
         </header>
     )
