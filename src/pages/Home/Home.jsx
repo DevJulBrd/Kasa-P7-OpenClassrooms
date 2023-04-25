@@ -1,9 +1,10 @@
 import './Home.css'
 import React from "react"
-import Banner from "../../components/Banner-home/Banner"
+import Banner from "../../components/Banner/Banner"
 import HomeItem from '../../components/HomeItem/HomeItem'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react';
+import cover from '../../assets/img-banner.png'
 
 function Home() {
     const [houses, setHouses] = useState([]);
@@ -18,11 +19,15 @@ function Home() {
         fetchHouses()
     }, [])
 
+    const title = "Chez vous, partout et ailleurs"
 
 
     return (
         <main className="home-container">
-            <Banner />
+            <Banner 
+                title={title}
+                cover={cover}
+            />
             <section className='home-shoppingList-container'>
                 {houses.map(({id, index, cover, title}) =>
                     <article key={`${id}-${index}`} className='home-shoppingList-list'>

@@ -1,14 +1,14 @@
-.explen-container {
-    width: 90%;
+.dropdown-container {
+    width: 100%;
     margin: 15px auto;
 }
 
-.explen-contain {
+.dropdown-contain {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.explen-animation{
+.dropdown-animation{
     background-color: #FF6060;
     border-radius: 10px;
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 
-.explen-title {
+.dropdown-title {
     width: 30%;
     color: white;
     font-size: 13px;
@@ -26,13 +26,13 @@
     margin: 0;
 }
 
-.explen-vector{
+.dropdown-vector{
     width: 15px;
     height: 9px;
     margin-right: 10px;
 }
 
-.explen-text {
+.dropdown-text {
     width: 100%;
     background-color: #F6F6F6;
     color: #FF6060;
@@ -46,32 +46,32 @@
 }
 
 @media screen and (min-width: 600px) {
-    .explen-container{
+    .dropdown-container{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    .explen-contain{
+    .dropdown-contain{
         width: 80%;
     }
 
-    .explen-title{
+    .dropdown-title{
         width: 101%;
         font-size: 24px;
     }
 
-    .explen-text{
+    .dropdown-text{
         font-size: 24px;
         padding: 10px;
         line-height: 34px;
     }
 
-    .explen-vector{
+    .dropdown-vector{
         width: 23px;
         height: 14px;
     }
-    .explen-animation{
+    .dropdown-animation{
         width: 102%;
     }
     
