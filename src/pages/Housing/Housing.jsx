@@ -35,10 +35,7 @@ function Housing() {
 
 
     const equipment = 'Equipements'
-    const equipmentText = house.equipments
     const description = 'Description'
-
-    console.log(equipmentText)
 
 
     return (
